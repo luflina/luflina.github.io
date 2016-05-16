@@ -97,14 +97,14 @@ div.menu>ul>li {
 
 div.menu>ul>li>a {
     text-decoration: none;
-    color: darkcyan;
-    padding: 20px;
+    color: slategray;
+    padding-right: 60px;
 }
 #i {
     font-style: italic;
 }
 .column{
-    column-count: 2;
+    -moz-column-count: 2;
 }
 
 div.menu>ul {
