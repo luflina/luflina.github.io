@@ -33,7 +33,7 @@ a{
 }
 
 .header .logo img{
-
+    vertical-align: middle;
 }
 
 .header .logo .sitename{
@@ -94,7 +94,7 @@ a{
     
 }
 .contentp .slider .text .title{
-    font-family: Roboto;
+    font-family: Roboto Condensed;
     font-weight: 400;
     font-size: 64px;
     text-transform: uppercase;
@@ -130,6 +130,7 @@ a{
 
 .contentp-tourtle .slider  {
     margin-top: 46px;
+    margin-bottom: 46px;
     height: 717px;
     background-image: url(img/tourtle.jpg);
 
@@ -152,7 +153,7 @@ a{
     
 }
 .contentp-tourtle .slider .text .title {
-    font-family: Roboto;
+    font-family: Roboto Condensed;
     font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
@@ -179,11 +180,16 @@ a{
     background-color: #ff7a2c;
 }
 
-
+.follow-us {
+    
+    
+}
 .follow-us .slider  {
-    margin-top: 46px;
+    
     height: 717px;
     background-image: url(img/background.png);
+    background-repeat: no-repeat;
+     
 
 }
 .follow-us .slider .slidercontent{
@@ -193,16 +199,16 @@ a{
 
 
 .follow-us .slider .text {
-    margin-top: 220px;
+    
 
     
     
     
 }
 .follow-us .slider .text .title {
-    font-family: Roboto;
+    font-family: Roboto Condensed;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 60px;
     text-transform: uppercase;
     line-height: 60px;
  
@@ -214,26 +220,47 @@ a{
     font-family: Lato;
     font-weight: 300;
     font-size: 21px;
-    padding-top: 15px;
+    padding-top: 28px;
 }
 .follow-us .slider .text .btn {
     color: white;
      font-family: Lato;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 39px;
+    margin-top: 24px;
+   width: 546px;
+    height: 38px;
+    padding-top: 24px;
+    padding-left: 24px;
+    background-image: url(img/iconf.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
     text-transform: uppercase;
-     padding: 16.5px 110px;
+    
     background-color: #ff7a2c;
 }
 
 .follow-us .slider .text .input {
-    color: #2d3140;
+    color: #abadb3;
      font-family: Lato;
     font-weight: 300;
     font-size: 15px;
-    margin-top: 39px;
+    margin-top: 37px;
     text-transform: uppercase;
-     padding: 16.5px 110px;
-    background-color: white;
+    background: white;
+    border: 2px solid #d4d4d4;
+    
+}
+
+.follow-us .slider .text .input .text {
+     text-transform: uppercase;
+    width: 476px;
+    height: 62px;
+    padding-left: 24px;
+}
+.follow-us .slider .text .input .submit {
+    
+    height: 36px;
+    width: 52px;
+     background-image: url(img/icon.png);
 }
