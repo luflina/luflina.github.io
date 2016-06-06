@@ -32,6 +32,9 @@ a{
     
     width: 30%;
 }
+.header .logo .sitename a {
+    color: white;
+}
 
 .header .logo img{
     vertical-align: middle;
@@ -49,7 +52,7 @@ a{
     padding-top: 13px;
 }
 .header .menu {
-    margin-top: 22px;
+    margin-top: 15px;
     width:70%;
     float: left;
     text-align: right;
@@ -66,6 +69,11 @@ a{
     padding: 9px 35px;
     background-color: #ff7a2c;
 }
+
+.header .menu li .btn:hover{
+    background-color: #FF9D3A;
+}
+
 
 .header .menu li a{
     color: white;
@@ -185,6 +193,10 @@ a{
     background-color: #ff7a2c;
 }
 
+.contentp-tourtle .slider .text .btn-donate:hover{
+ background-color: #FF9D3A;
+}
+
 .follow-us {
     
     
@@ -244,6 +256,14 @@ a{
     background-color: #ff7a2c;
 }
 
+.follow-us .slider .text .btn-f:hover {
+    
+    background-image: url(img/iconf_h.png);
+        background-repeat: no-repeat;
+    background-position: right;
+ background-color: #ff9d3a;
+        
+}
 .follow-us .slider .text .input {
         position: relative;
    
@@ -272,6 +292,9 @@ a{
 
 right: 22px;
     top: 50px;
+}
+.follow-us .slider .text .btn:hover {
+    background-image: url(img/icon_h.png);
 }
 
 .home-2 {
@@ -316,7 +339,9 @@ right: 22px;
     display: inline-block;
 }
 
-
+.home-2 .btn:hover {
+     background-color: #ff9d3a;
+}
 
 .contact-1 .content {
     max-width: 1170px;
@@ -342,6 +367,13 @@ right: 22px;
     font-size: 21px;
     padding-top: 28px;
 }
+
+.contact-1 .info .text a{
+    text-decoration-line: underline;
+}
+.contact-1 .info .text a:hover{
+    color: #ff9d3a;
+}
 .contact-1 .info ul {
     margin-top: 38px;
     list-style-position: inside;
@@ -353,7 +385,7 @@ right: 22px;
     list-style-image: url('img/bul.png');
 }
 .contact-1 .info .social {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .contact-1 .info .social img {
     margin-right: 15px;
@@ -371,6 +403,7 @@ right: 22px;
 }
 .contact-1 .info .subscribe .field {
     position: relative;
+    
 }
 .contact-1 .info .subscribe .input {
     color: #abadb3;
@@ -381,7 +414,7 @@ right: 22px;
     text-transform: uppercase;
     background: white;
     border: 2px solid #d4d4d4;
-    width: 476px;
+    width: 420px;
     height: 62px;
     padding-left: 24px;
 }
@@ -390,10 +423,13 @@ right: 22px;
     width: 52px;
     background-image: url(img/icon.png);
     position: absolute;
-    right: -25px;
+    right: 30px;
     top: 50px;
 }
 
+.contact-1 .info .subscribe .btn:hover {
+     background-image: url(img/icon_h.png);
+}
 .contact-2 {
     background-image: url("img/bg_map.png");
     background-size: cover;
@@ -496,6 +532,9 @@ right: 22px;
     color: white;
     text-transform: uppercase;
 }
+.contact-3 .btn:hover {
+     background-color: #FF9D3A;
+}
 .footer {
     height: 100px;
     border-top: 5px solid #9cead6;
@@ -510,6 +549,7 @@ right: 22px;
 }
 .footer .social,
 .footer .copyright {
+    
     float: left;
 }
 .footer .copyright {
