@@ -29,6 +29,7 @@ a{
     font-weight: 400;
     font-size: 22px;
     float:left;
+    
     width: 30%;
 }
 
@@ -37,7 +38,7 @@ a{
 }
 
 .header .logo .sitename{
-    
+    padding-left: 10px;
 }
 
 
@@ -74,6 +75,8 @@ a{
 .contentp .slider  {
     height: 641px;
     background-image: url(img/slider.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .contentp .slider .slidercontent{
@@ -133,6 +136,8 @@ a{
     margin-bottom: 46px;
     height: 717px;
     background-image: url(img/tourtle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .contentp-tourtle .slider .slidercontent{
@@ -186,9 +191,10 @@ a{
 }
 .follow-us .slider  {
     
-    height: 717px;
+    height: 437px;
     background-image: url(img/background.png);
     background-repeat: no-repeat;
+    background-size: cover;
      
 
 }
@@ -211,8 +217,6 @@ a{
     font-size: 60px;
     text-transform: uppercase;
     line-height: 60px;
- 
-   
 }
 
 
@@ -222,7 +226,7 @@ a{
     font-size: 21px;
     padding-top: 28px;
 }
-.follow-us .slider .text .btn {
+.follow-us .slider .text .btn-f {
     color: white;
      font-family: Lato;
     font-weight: 400;
@@ -241,26 +245,275 @@ a{
 }
 
 .follow-us .slider .text .input {
-    color: #abadb3;
-     font-family: Lato;
+        position: relative;
+   
+    
+}
+
+.follow-us .slider .text .input .text {
+      color: #abadb3;
+    font-family: Lato;
     font-weight: 300;
     font-size: 15px;
     margin-top: 37px;
     text-transform: uppercase;
     background: white;
     border: 2px solid #d4d4d4;
-    
-}
-
-.follow-us .slider .text .input .text {
-     text-transform: uppercase;
-    width: 476px;
+    width: 540px;
     height: 62px;
     padding-left: 24px;
 }
-.follow-us .slider .text .input .submit {
+.follow-us .slider .text .btn {
     
     height: 36px;
     width: 52px;
      background-image: url(img/icon.png);
+   position: absolute;
+
+right: 22px;
+    top: 50px;
+}
+
+.home-2 {
+    background-image: url("img/our mission.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+}
+.home-2 .content {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.home-2 .text {
+    padding-left: 0;
+    padding-top: 10%;
+}
+.home-2 .text .title {
+    color: #2d3140;
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.home-2 .text .description {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 21px;
+    padding-top: 28px;
+    color: #2d3140;
+    max-width: 500px;
+}
+.home-2 .btn {
+    padding: 9px 35px;
+         font-family: Lato;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #ff7a2c;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+.contact-1 .content {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-image: url("img/contact-logo.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.contact-1 h1 {
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2d3140;
+}
+.contact-1 .info {
+    max-width: 460px;
+}
+.contact-1 .info .text {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 21px;
+    padding-top: 28px;
+}
+.contact-1 .info ul {
+    margin-top: 38px;
+    list-style-position: inside;
+    padding-left: 30px;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 200;
+    color: #52576d;
+    list-style-image: url('img/bul.png');
+}
+.contact-1 .info .social {
+    margin-top: 60px;
+}
+.contact-1 .info .social img {
+    margin-right: 15px;
+}
+
+.contact-1 .info .subscribe {
+    margin-top: 40px;
+}
+
+.contact-1 .info .subscribe .plot {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 21px;
+    padding-top: 28px;
+}
+.contact-1 .info .subscribe .field {
+    position: relative;
+}
+.contact-1 .info .subscribe .input {
+    color: #abadb3;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 37px;
+    text-transform: uppercase;
+    background: white;
+    border: 2px solid #d4d4d4;
+    width: 476px;
+    height: 62px;
+    padding-left: 24px;
+}
+.contact-1 .info .subscribe .btn {
+    height: 36px;
+    width: 52px;
+    background-image: url(img/icon.png);
+    position: absolute;
+    right: -25px;
+    top: 50px;
+}
+
+.contact-2 {
+    background-image: url("img/bg_map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.contact-2 .content {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.contact-2 .text {
+    padding-left: 70%;
+    padding-top: 20%;
+}
+.contact-2 .text .title {
+    color: #fff;
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact-2 .text .description {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 21px;
+    padding-top: 28px;
+    color: #fff;
+}
+.contact-3 {
+    background-image: url("img/mountain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.contact-3 .content {
+    max-width: 770px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.contact-3 .title {
+    color: #2d3140;
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact-3 input {
+    color: #abadb3;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 37px;
+    text-transform: uppercase;
+    background: white;
+    border: 2px solid #d4d4d4;
+    width: 740px;
+    height: 42px;
+    padding-left: 25px;
+}
+
+.contact-3 input.name {
+    margin-right: 28px;
+
+}
+.contact-3 input.name,
+.contact-3 input.email {
+    width: 340px;
+}
+.contact-3 textarea {
+    color: #abadb3;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 37px;
+    text-transform: uppercase;
+    background: white;
+    border: 2px solid #d4d4d4;
+    width: 740px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.contact-3 .send {
+    margin-top: 10px;
+}
+.contact-3 .msg {
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 200;
+    color: #9ea6a1;
+}
+.contact-3 .btn {
+    float: right;
+    padding: 9px 35px;
+      font-family: Lato;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #ff7a2c;
+    color: white;
+    text-transform: uppercase;
+}
+.footer {
+    height: 100px;
+    border-top: 5px solid #9cead6;
+}
+.footer .footer-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.footer img {
+    margin-right: 15px;
+}
+.footer .social,
+.footer .copyright {
+    float: left;
+}
+.footer .copyright {
+    margin-left: 25px;
+    color: #2d3140;
+    line-height: 55px;
 }
